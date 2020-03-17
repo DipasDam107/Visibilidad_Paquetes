@@ -67,6 +67,7 @@ public class Main{
         métodos lanzar() de la clase Dado y DadoFalso. ¿Algún problema de acceso? Enumera distintas
         formas de solucionarlo: ¿cambiando el acceso a las clases? ¿cambiando de paquete el ejercicio? 
         */
+        
         Dado dado = new Dado();
         System.out.println("\n\n\n---------------------------");
         System.out.println("DADO");
