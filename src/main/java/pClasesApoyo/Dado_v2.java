@@ -9,10 +9,8 @@ package pClasesApoyo;
  *
  * @author User
  */
-class DadoFalso {
-    public int lanzar(int n){
-        int num = (int)(Math.random()*8) + 1;
-        if (num==n || num >=7) return n;
-        else return num;
+public class Dado_v2 {
+    public static int lanzar(){
+        return (int)(Math.random()*6) +1;
     }
 }

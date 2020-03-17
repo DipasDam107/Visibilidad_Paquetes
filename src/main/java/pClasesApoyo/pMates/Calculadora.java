@@ -27,7 +27,10 @@ public class Calculadora {
         boolean primero=true;
         
         for(int x : enteros){
-            if(x<menor || primero) x=menor;
+            if(x<menor || primero){ 
+                menor=x;
+                primero=false;
+            }
         }
         
         return menor;

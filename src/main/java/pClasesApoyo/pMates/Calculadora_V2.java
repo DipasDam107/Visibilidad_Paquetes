@@ -27,7 +27,7 @@ public class Calculadora_V2 {
         
         for(int x : enteros){
             if(x<menor || primero){ 
-                x=menor;
+                menor=x;
                 primero=false;
             }
         }
